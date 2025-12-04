@@ -2,7 +2,7 @@ package org.pabuff.dto;
 
 public enum PagLinkOpTypeEnum {
     gatewayToDevice,
-    gatewayToMotherBoard,
-    mcuToMotherBoard,
+    gatewayToMotherboard,
+    mcuToMotherboard,
     none,
 }
