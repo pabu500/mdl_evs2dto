@@ -7,7 +7,8 @@ public enum PagDeviceCatEnum {
     lock("lock", "Lock", "l"),
     gateway("gateway", "Gateway", "gw"),
     meterGroup("meter_group", "Meter Group", "mg"),
-    mcu("mcu", "MCU", "mcu");
+    mcu("mcu", "MCU", "mcu"),
+    motherboard("motherboard", "Motherboard", "mb");
 
     private final String value;
     private final String label;
