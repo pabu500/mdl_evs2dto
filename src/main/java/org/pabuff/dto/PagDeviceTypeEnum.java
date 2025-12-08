@@ -1,5 +1,6 @@
 package org.pabuff.dto;
 
+@Deprecated
 public enum PagDeviceTypeEnum {
     meter,
     sensor,
