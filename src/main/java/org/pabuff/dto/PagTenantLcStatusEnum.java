@@ -1,9 +1,9 @@
 package org.pabuff.dto;
 
 public enum PagTenantLcStatusEnum {
-    ONBOARDING("onboarding", "Onboarding", "onb"),
+    ONBOARDING("onb", "Onboarding", "onb"),
     NORMAL("normal", "Normal", "norm"),
-    OFFBOARDING("offboarding", "Offboarding", "offb"),
+    OFFBOARDING("offb", "Offboarding", "offb"),
     TERMINATED("terminated", "Terminated", "term"),
     MARKED_FOR_DELETE("mfd", "Marked for Delete", "mfd");
 
