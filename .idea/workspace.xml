@@ -4,29 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4822d4f7-3bd8-41ec-a635-82fd4a68077c" name="Changes" comment="misc update">
+    <list default="true" id="4822d4f7-3bd8-41ec-a635-82fd4a68077c" name="Changes" comment="scope enum update">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/dto/PagTenantLcStatusEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/dto/StdRespDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/dto/StdRespDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/_pa/_evs2/_mdl_evs2dto/20240426" value="2f31N8oflTBGUMM8x2ox4MW5Jtb" />
+    </persistenceIdMap>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="67c47d2d-50dc-46d2-a77c-045a3d59f2f9" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -41,6 +43,7 @@
     &quot;Maven.evs2dto [clean,deploy].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -89,6 +92,13 @@
       </extension>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -315,23 +325,119 @@
       <option name="project" value="LOCAL" />
       <updated>1743742257630</updated>
     </task>
-    <task id="LOCAL-00028" summary="misc update">
+    <task id="LOCAL-00028" summary="misc">
       <option name="closed" value="true" />
-      <created>1744091521471</created>
+      <created>1748190876490</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1744091521471</updated>
+      <updated>1748190876490</updated>
     </task>
-    <task id="LOCAL-00029" summary="misc update">
+    <task id="LOCAL-00029" summary="misc">
       <option name="closed" value="true" />
-      <created>1746415995490</created>
+      <created>1748191278100</created>
       <option name="number" value="00029" />
       <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1746415995490</updated>
+      <updated>1748191278100</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="misc">
+      <option name="closed" value="true" />
+      <created>1749934083407</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1749934083408</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add PagDeviceCatEnum">
+      <option name="closed" value="true" />
+      <created>1756649400900</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1756649400900</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add PagDeviceCatEnum">
+      <option name="closed" value="true" />
+      <created>1756649861745</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1756649861745</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add PagPortalStatusEnum">
+      <option name="closed" value="true" />
+      <created>1757058244408</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1757058244408</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add PaymentLcStatusEnum">
+      <option name="closed" value="true" />
+      <created>1757355856989</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1757355856989</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add PagItemKindEnum2">
+      <option name="closed" value="true" />
+      <created>1758118074281</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1758118074281</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add motherboard">
+      <option name="closed" value="true" />
+      <created>1763820221979</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1763820221979</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add motherboard">
+      <option name="closed" value="true" />
+      <created>1765216650522</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1765216650522</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add motherboard">
+      <option name="closed" value="true" />
+      <created>1765216776671</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1765216776671</updated>
+    </task>
+    <task id="LOCAL-00039" summary="link op update">
+      <option name="closed" value="true" />
+      <created>1765302353307</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1765302353307</updated>
+    </task>
+    <task id="LOCAL-00040" summary="link op update">
+      <option name="closed" value="true" />
+      <created>1765303703362</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1765303703362</updated>
+    </task>
+    <task id="LOCAL-00041" summary="scope enum update">
+      <option name="closed" value="true" />
+      <created>1767623535697</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1767623535697</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,7 +477,22 @@
     <MESSAGE value="change enum convention" />
     <MESSAGE value="enum update" />
     <MESSAGE value="add lc_status to MeterInfoDto" />
-    <MESSAGE value="misc update" />
-    <option name="LAST_COMMIT_MESSAGE" value="misc update" />
+    <MESSAGE value="misc" />
+    <MESSAGE value="add PagDeviceCatEnum" />
+    <MESSAGE value="add PagPortalStatusEnum" />
+    <MESSAGE value="add PaymentLcStatusEnum" />
+    <MESSAGE value="add PagItemKindEnum2" />
+    <MESSAGE value="add motherboard" />
+    <MESSAGE value="link op update" />
+    <MESSAGE value="scope enum update" />
+    <option name="LAST_COMMIT_MESSAGE" value="scope enum update" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
