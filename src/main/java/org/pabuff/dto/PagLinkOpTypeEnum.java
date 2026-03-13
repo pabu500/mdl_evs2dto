@@ -6,5 +6,7 @@ public enum PagLinkOpTypeEnum {
     gatewayToDevice,
     gatewayToMotherboard,
     mcuToMotherboard,
+    simToMcu,
+    simToGateway,
     none,
 }
