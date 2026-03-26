@@ -10,7 +10,9 @@ public enum PagItemKindEnum2 {
     billing("billing", "Billing", "billing"),
     meterGroup("meter_group", "Meter Group", "meterGroup"),
     finance("finance", "Finance", "finance"),
-    landlord("landlord", "Landlord", "landlord"),;
+//    amgr("amgr", "Asset Manager", "amgr"),
+//    landlord("landlord", "Landlord", "landlord"),;
+    org("org", "Organization", "org"),;
 
     private final String value;
     private final String label;
