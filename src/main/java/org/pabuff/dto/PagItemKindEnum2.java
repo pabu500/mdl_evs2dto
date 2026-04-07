@@ -9,10 +9,9 @@ public enum PagItemKindEnum2 {
     jobType("job_type", "Job Type", "jobType"),
     bill("bill", "Bill", "bill"),
     tariffPackage("tariff_package", "Tariff Package", "tariffPackage"),
+    tariffPackageType("tariff_package_type", "Tariff Package Type", "tariffPackageType"),
     meterGroup("meter_group", "Meter Group", "meterGroup"),
     finance("finance", "Finance", "finance"),
-//    amgr("amgr", "Asset Manager", "amgr"),
-//    landlord("landlord", "Landlord", "landlord"),;
     org("org", "Organization", "org"),;
 
     private final String value;
