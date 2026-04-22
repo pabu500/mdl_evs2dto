@@ -2,7 +2,8 @@ package org.pabuff.dto;
 
 public enum PagOrgTypeEnum {
     amgr("amgr", "Asset Manager", "amgr"),
-    landlord("landlord", "Landlord", "landlord"),;
+    landlord("landlord", "Landlord", "landlord"),
+    bank("bank", "Bank", "bank"),;
 
     private final String value;
     private final String label;
