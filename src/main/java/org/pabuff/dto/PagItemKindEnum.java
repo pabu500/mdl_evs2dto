@@ -1,5 +1,6 @@
 package org.pabuff.dto;
 
+@Deprecated
 public enum PagItemKindEnum {
     device,
 //    DEVICE_GROUP,

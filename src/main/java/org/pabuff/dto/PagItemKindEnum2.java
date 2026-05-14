@@ -8,8 +8,9 @@ public enum PagItemKindEnum2 {
     tenant("tenant", "Tenant", "tenant"),
     jobType("job_type", "Job Type", "jobType"),
     bill("bill", "Bill", "bill"),
-    tariffPackage("tariff_package", "Tariff Package", "tariffPackage"),
-    tariffPackageType("tariff_package_type", "Tariff Package Type", "tariffPackageType"),
+//    tariffPackage("tariff_package", "Tariff Package", "tariffPackage"),
+//    tariffPackageType("tariff_package_type", "Tariff Package Type", "tariffPackageType"),
+    tariff("tariff", "Tariff", "tariff"),
     meterGroup("meter_group", "Meter Group", "meterGroup"),
     finance("finance", "Finance", "finance"),
     org("org", "Organization", "org"),;
