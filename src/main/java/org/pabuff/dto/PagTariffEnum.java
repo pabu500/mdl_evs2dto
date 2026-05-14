@@ -1,6 +1,6 @@
 package org.pabuff.dto;
 
-public enum PagTariff {
+public enum PagTariffEnum {
     tariffPackage("tariff_package", "Tariff Package", "tp"),
     tariffRate("tariff_rate", "Tariff Rate", "tr"),
     tariffPackageType("tariff_package_type", "Tariff Package Type", "tpt");
@@ -9,7 +9,7 @@ public enum PagTariff {
     private final String label;
     private final String tag;
 
-    PagTariff(String value, String label, String tag) {
+    PagTariffEnum(String value, String label, String tag) {
         this.value = value;
         this.label = label;
         this.tag = tag;
@@ -29,8 +29,8 @@ public enum PagTariff {
     }
 
     // Reverse lookup by value
-    public static PagTariff fromValue(String value) {
-        for (PagTariff status : PagTariff.values()) {
+    public static PagTariffEnum fromValue(String value) {
+        for (PagTariffEnum status : PagTariffEnum.values()) {
             if (status.value.equalsIgnoreCase(value)) {
                 return status;
             }
@@ -38,8 +38,8 @@ public enum PagTariff {
         throw new IllegalArgumentException("Unknown value: " + value);
     }
 
-    public static PagTariff fromTag(String tag) {
-        for (PagTariff status : PagTariff.values()) {
+    public static PagTariffEnum fromTag(String tag) {
+        for (PagTariffEnum status : PagTariffEnum.values()) {
             if (status.tag.equalsIgnoreCase(tag)) {
                 return status;
             }
@@ -47,8 +47,8 @@ public enum PagTariff {
         throw new IllegalArgumentException("Unknown tag: " + tag);
     }
 
-    public static PagTariff fromLabel(String label) {
-        for (PagTariff status : PagTariff.values()) {
+    public static PagTariffEnum fromLabel(String label) {
+        for (PagTariffEnum status : PagTariffEnum.values()) {
             if (status.label.equalsIgnoreCase(label)) {
                 return status;
             }
