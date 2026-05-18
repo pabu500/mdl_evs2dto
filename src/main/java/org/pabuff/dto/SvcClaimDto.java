@@ -36,5 +36,8 @@ public class SvcClaimDto {
     @JsonProperty("expire_in_minutes")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final Integer expireInMinutes;
+    @JsonProperty("selected_role_id")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private final long selectedRoleId;
 
 }
