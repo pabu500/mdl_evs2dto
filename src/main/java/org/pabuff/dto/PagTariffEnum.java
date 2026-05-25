@@ -3,7 +3,8 @@ package org.pabuff.dto;
 public enum PagTariffEnum {
     tariffPackage("tariff_package", "Tariff Package", "tp"),
     tariffRate("tariff_rate", "Tariff Rate", "tr"),
-    tariffPackageType("tariff_package_type", "Tariff Package Type", "tpt");
+    tariffPackageType("tariff_package_type", "Tariff Package Type", "tpt"),
+    billingCostItem("billing_cost_item", "Billing Cost Item", "bci");
 
     private final String value;
     private final String label;
