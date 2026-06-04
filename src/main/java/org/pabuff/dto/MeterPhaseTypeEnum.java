@@ -3,7 +3,8 @@ package org.pabuff.dto;
 public enum MeterPhaseTypeEnum {
     SINGLE_PHASE("single_phase", "Single Phase", "1p"),
     THREE_PHASE("three_phase", "Three Phase", "3p"),
-    THREE_PHASE_DIRECT("three_phase_direct", "Three Phase Direct", "3pd");
+    THREE_PHASE_DIRECT("three_phase_direct", "Three Phase Direct", "3pd"),
+    THREE_PHASE_CT("three_phase_ct", "Three Phase CT", "3pc");
 
     private final String value;
     private final String label;
