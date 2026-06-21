@@ -4,31 +4,130 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4822d4f7-3bd8-41ec-a635-82fd4a68077c" name="Changes" comment="scope enum update">
+    <list default="true" id="4822d4f7-3bd8-41ec-a635-82fd4a68077c" name="Changes" comment="add CrudTypeEnum">
+      <change afterPath="$PROJECT_DIR$/.idea/awsToolkit.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/dto/PagTenantLcStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/dto/PagPortalTypeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="e29eebd3-beb4-4a74-99a3-4beabe850418" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="e29eebd3-beb4-4a74-99a3-4beabe850418" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="gpt-4.1" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_D:/_pa/_evs2/_mdl_evs2dto/20240426" value="2f31N8oflTBGUMM8x2ox4MW5Jtb" />
+      <entry key="_/Users/pa596/Developer/_evs2/_mdl_evs2dto/20240615" value="2f31N8oflTBGUMM8x2ox4MW5Jtb" />
     </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="edit-panel" value="GPT-4.1" />
+      <entry key="chat-panel" value="GPT-4.1" />
+      <entry key="agent-panel" value="GPT-4.1" />
+    </selectedModels>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="78" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="67c47d2d-50dc-46d2-a77c-045a3d59f2f9" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.9643429805627507E-4" />
+      <entry key="MS500" value="0.20052558618453611" />
+      <entry key="S2" value="1.2128685773799153" />
+      <entry key="S5" value="2.6641189366122853" />
+      <entry key="S10" value="3.9177686650348966" />
+      <entry key="S30" value="6.188042935121947" />
+      <entry key="S60" value="9.718329978070079" />
+      <entry key="M2" value="15.733587791783322" />
+      <entry key="M5" value="25.58076898518873" />
+      <entry key="M10" value="32.049992919149666" />
+      <entry key="M15" value="34.88468990546122" />
+      <entry key="M30" value="38.17139821610236" />
+      <entry key="H1" value="40.0116327496908" />
+      <entry key="H2" value="40.986439167316604" />
+      <entry key="H4" value="41.48826303352371" />
+      <entry key="D1" value="41.91401234286282" />
+      <entry key="W1" value="41.987698822390676" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.8871388144702003E-5" />
+      <entry key="MS500" value="0.12362136454761642" />
+      <entry key="S2" value="0.592957249705474" />
+      <entry key="S5" value="0.8113520800951879" />
+      <entry key="S10" value="0.9007845789796467" />
+      <entry key="S30" value="0.9980785891645347" />
+      <entry key="S60" value="1.1663991825402762" />
+      <entry key="M2" value="1.502732252061317" />
+      <entry key="M5" value="2.276193601095473" />
+      <entry key="M10" value="2.9079389268940807" />
+      <entry key="M15" value="3.2064863097185037" />
+      <entry key="M30" value="3.565925576405338" />
+      <entry key="H1" value="3.7726575959575337" />
+      <entry key="H2" value="3.8836190719312205" />
+      <entry key="H4" value="3.9411146522545577" />
+      <entry key="D1" value="3.990087745000576" />
+      <entry key="W1" value="3.9985815427659324" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0000288839185822" />
+      <entry key="MS500" value="1.1534392192509983" />
+      <entry key="S2" value="2.541232057436998" />
+      <entry key="S5" value="4.314756165262159" />
+      <entry key="S10" value="5.717293116575646" />
+      <entry key="S30" value="8.137323899612895" />
+      <entry key="S60" value="11.847420176957204" />
+      <entry key="M2" value="18.205670813099154" />
+      <entry key="M5" value="28.83678837300727" />
+      <entry key="M10" value="35.94528495780735" />
+      <entry key="M15" value="39.082001539716735" />
+      <entry key="M30" value="42.732306541799936" />
+      <entry key="H1" value="44.781661548878304" />
+      <entry key="H2" value="45.868712032765" />
+      <entry key="H4" value="46.42869639759742" />
+      <entry key="D1" value="46.90398538266836" />
+      <entry key="W1" value="46.9862639500917" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -41,13 +140,22 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Maven.evs2dto [clean,deploy].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pa596/Developer/_evs2/_mdl_evs2dto/20240615&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/pa596/Developer/_evs2/_mdl_evs2dto/20240615&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -96,7 +204,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>
@@ -325,120 +434,115 @@
       <option name="project" value="LOCAL" />
       <updated>1743742257630</updated>
     </task>
-    <task id="LOCAL-00028" summary="misc">
+    <task id="LOCAL-00028" summary="misc update">
       <option name="closed" value="true" />
-      <created>1748190876490</created>
+      <created>1744091521471</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1748190876490</updated>
+      <updated>1744091521471</updated>
     </task>
-    <task id="LOCAL-00029" summary="misc">
+    <task id="LOCAL-00029" summary="misc update">
       <option name="closed" value="true" />
-      <created>1748191278100</created>
+      <created>1746415995490</created>
       <option name="number" value="00029" />
       <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1748191278100</updated>
+      <updated>1746415995490</updated>
     </task>
-    <task id="LOCAL-00030" summary="misc">
+    <task id="LOCAL-00030" summary="add sim to device cat">
       <option name="closed" value="true" />
-      <created>1749934083407</created>
+      <created>1773375373621</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1749934083408</updated>
+      <updated>1773375373621</updated>
     </task>
-    <task id="LOCAL-00031" summary="add PagDeviceCatEnum">
+    <task id="LOCAL-00031" summary="add sim to link op">
       <option name="closed" value="true" />
-      <created>1756649400900</created>
+      <created>1773386612569</created>
       <option name="number" value="00031" />
       <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1756649400900</updated>
+      <updated>1773386612569</updated>
     </task>
-    <task id="LOCAL-00032" summary="add PagDeviceCatEnum">
+    <task id="LOCAL-00032" summary="add org type">
       <option name="closed" value="true" />
-      <created>1756649861745</created>
+      <created>1774495942518</created>
       <option name="number" value="00032" />
       <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1756649861745</updated>
+      <updated>1774495942518</updated>
     </task>
-    <task id="LOCAL-00033" summary="add PagPortalStatusEnum">
+    <task id="LOCAL-00033" summary="add org type">
       <option name="closed" value="true" />
-      <created>1757058244408</created>
+      <created>1774496612283</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1757058244408</updated>
+      <updated>1774496612283</updated>
     </task>
-    <task id="LOCAL-00034" summary="add PaymentLcStatusEnum">
+    <task id="LOCAL-00034" summary="add org type">
       <option name="closed" value="true" />
-      <created>1757355856989</created>
+      <created>1776838387930</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1757355856989</updated>
+      <updated>1776838387930</updated>
     </task>
-    <task id="LOCAL-00035" summary="add PagItemKindEnum2">
+    <task id="LOCAL-00035" summary="tariff kind update">
       <option name="closed" value="true" />
-      <created>1758118074281</created>
+      <created>1778726995192</created>
       <option name="number" value="00035" />
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1758118074281</updated>
+      <updated>1778726995192</updated>
     </task>
-    <task id="LOCAL-00036" summary="add motherboard">
+    <task id="LOCAL-00036" summary="tariff kind update">
       <option name="closed" value="true" />
-      <created>1763820221979</created>
+      <created>1778727298998</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1763820221979</updated>
+      <updated>1778727298998</updated>
     </task>
-    <task id="LOCAL-00037" summary="add motherboard">
+    <task id="LOCAL-00037" summary="SvcClaimDto add selected role id">
       <option name="closed" value="true" />
-      <created>1765216650522</created>
+      <created>1779077715110</created>
       <option name="number" value="00037" />
       <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1765216650522</updated>
+      <updated>1779077715110</updated>
     </task>
-    <task id="LOCAL-00038" summary="add motherboard">
+    <task id="LOCAL-00038" summary="SvcClaimDto add selected role id">
       <option name="closed" value="true" />
-      <created>1765216776671</created>
+      <created>1779078007289</created>
       <option name="number" value="00038" />
       <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1765216776671</updated>
+      <updated>1779078007289</updated>
     </task>
-    <task id="LOCAL-00039" summary="link op update">
+    <task id="LOCAL-00039" summary="add billing cost item to PagTariffEnum">
       <option name="closed" value="true" />
-      <created>1765302353307</created>
+      <created>1779690833207</created>
       <option name="number" value="00039" />
       <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1765302353307</updated>
+      <updated>1779690833207</updated>
     </task>
-    <task id="LOCAL-00040" summary="link op update">
+    <task id="LOCAL-00040" summary="add CrudTypeEnum">
       <option name="closed" value="true" />
-      <created>1765303703362</created>
+      <created>1782009822058</created>
       <option name="number" value="00040" />
       <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1765303703362</updated>
+      <updated>1782009822058</updated>
     </task>
-    <task id="LOCAL-00041" summary="scope enum update">
-      <option name="closed" value="true" />
-      <created>1767623535697</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1767623535697</updated>
-    </task>
-    <option name="localTasksCounter" value="42" />
+    <option name="localTasksCounter" value="41" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -477,15 +581,26 @@
     <MESSAGE value="change enum convention" />
     <MESSAGE value="enum update" />
     <MESSAGE value="add lc_status to MeterInfoDto" />
-    <MESSAGE value="misc" />
-    <MESSAGE value="add PagDeviceCatEnum" />
-    <MESSAGE value="add PagPortalStatusEnum" />
-    <MESSAGE value="add PaymentLcStatusEnum" />
-    <MESSAGE value="add PagItemKindEnum2" />
-    <MESSAGE value="add motherboard" />
-    <MESSAGE value="link op update" />
-    <MESSAGE value="scope enum update" />
-    <option name="LAST_COMMIT_MESSAGE" value="scope enum update" />
+    <MESSAGE value="misc update" />
+    <MESSAGE value="add sim to device cat" />
+    <MESSAGE value="add sim to link op" />
+    <MESSAGE value="add org type" />
+    <MESSAGE value="tariff kind update" />
+    <MESSAGE value="SvcClaimDto add selected role id" />
+    <MESSAGE value="add billing cost item to PagTariffEnum" />
+    <MESSAGE value="add CrudTypeEnum" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CrudTypeEnum" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/pabuff/dto/CrudTypeEnum.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
