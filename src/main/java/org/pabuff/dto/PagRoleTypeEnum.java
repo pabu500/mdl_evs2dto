@@ -7,10 +7,10 @@ import lombok.Getter;
 @Getter
 public enum PagRoleTypeEnum {
     admin("admin", "Admin Role", "admin"),
-    subAdmin("sub-admin", "Sub-Admin Role", "sub-admin"),
+    subAdmin("sub_admin", "Sub-Admin Role", "sub-admin"),
     ops("ops", "Operations Role", "ops"),
-    siteOps("site-ops", "Site Operations Role", "site-ops"),
-    billingOps("billing-ops", "Billing Operations Role", "billing-ops"),
+    siteOps("site_ops", "Site Operations Role", "site-ops"),
+    billingOps("billing_ops", "Billing Operations Role", "billing-ops"),
     consumer("consumer", "Consumer Role", "consumer"),
     tenant("tenant", "Tenant Role", "tenant");
 
