@@ -1,7 +1,7 @@
 package org.pabuff.dto;
 
 public enum PagIdTypeEnum {
-    indexType("index", "Index", "id"),
+    indexType("id", "Index", "id"),
     nameType("name", "Name", "name"),
     labelType("label", "Label", "label"),
     snType("sn", "Serial Number", "sn"),
