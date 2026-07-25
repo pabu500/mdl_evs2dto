@@ -11,7 +11,8 @@ public enum PagIdTypeEnum {
     phoneNumberType("phoneNumber", "Phone Number", "phoneNumber"),
     accountNumberType("account_number", "Account Number", "account_number"),
     iccidType("iccid", "ICCID", "iccid"),
-    ipType("ip", "IP Address", "ip"),;
+    ipType("ip", "IP Address", "ip"),
+    macType("mac", "MAC Address", "mac"),;
 
     private final String value;
     private final String label;
