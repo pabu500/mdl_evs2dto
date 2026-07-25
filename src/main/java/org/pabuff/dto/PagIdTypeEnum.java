@@ -1,23 +1,23 @@
 package org.pabuff.dto;
 
-public enum PagItemKindEnum2 {
-    device("device", "Device", "device"),
-    scope("scope", "Scope", "scope"),
-    user("user", "User", "user"),
-    role("role", "Role", "role"),
-    tenant("tenant", "Tenant", "tenant"),
-    jobType("job_type", "Job Type", "jobType"),
-    bill("bill", "Bill", "bill"),
-    tariff("tariff", "Tariff", "tariff"),
-    meterGroup("meter_group", "Meter Group", "meterGroup"),
-    finance("finance", "Finance", "finance"),
-    org("org", "Organization", "org"),;
+public enum PagIdTypeEnum {
+    indexType("index", "Index", "id"),
+    nameType("name", "Name", "name"),
+    labelType("label", "Label", "label"),
+    snType("sn", "Serial Number", "sn"),
+    tagType("tag", "Tag", "tag"),
+    usernameType("username", "Username", "username"),
+    emailType("email", "Email", "email"),
+    phoneNumberType("phoneNumber", "Phone Number", "phoneNumber"),
+    accountNumberType("account_number", "Account Number", "account_number"),
+    iccidType("iccid", "ICCID", "iccid"),
+    ipType("ip", "IP Address", "ip"),;
 
     private final String value;
     private final String label;
     private final String tag;
 
-    PagItemKindEnum2(String value, String label, String tag) {
+    PagIdTypeEnum(String value, String label, String tag) {
         this.value = value;
         this.label = label;
         this.tag = tag;
@@ -37,8 +37,8 @@ public enum PagItemKindEnum2 {
     }
 
     // Reverse lookup by value
-    public static PagItemKindEnum2 fromValue(String value) {
-        for (PagItemKindEnum2 status : PagItemKindEnum2.values()) {
+    public static PagIdTypeEnum fromValue(String value) {
+        for (PagIdTypeEnum status : PagIdTypeEnum.values()) {
             if (status.value.equalsIgnoreCase(value)) {
                 return status;
             }
@@ -46,8 +46,8 @@ public enum PagItemKindEnum2 {
         throw new IllegalArgumentException("Unknown value: " + value);
     }
 
-    public static PagItemKindEnum2 fromTag(String tag) {
-        for (PagItemKindEnum2 status : PagItemKindEnum2.values()) {
+    public static PagIdTypeEnum fromTag(String tag) {
+        for (PagIdTypeEnum status : PagIdTypeEnum.values()) {
             if (status.tag.equalsIgnoreCase(tag)) {
                 return status;
             }
@@ -55,8 +55,8 @@ public enum PagItemKindEnum2 {
         throw new IllegalArgumentException("Unknown tag: " + tag);
     }
 
-    public static PagItemKindEnum2 fromLabel(String label) {
-        for (PagItemKindEnum2 status : PagItemKindEnum2.values()) {
+    public static PagIdTypeEnum fromLabel(String label) {
+        for (PagIdTypeEnum status : PagIdTypeEnum.values()) {
             if (status.label.equalsIgnoreCase(label)) {
                 return status;
             }
