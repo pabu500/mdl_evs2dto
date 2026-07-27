@@ -2,7 +2,7 @@ package org.pabuff.dto;
 
 public enum BillingReminderTypeEnum {
     firstAndSecond("fs", "First and Second", "fs"),
-    firstOnly("f", "First Only", "f"),
+    firstOnly("fo", "First Only", "fo"),
     none("none", "None", "none"),;
 
     private final String value;
