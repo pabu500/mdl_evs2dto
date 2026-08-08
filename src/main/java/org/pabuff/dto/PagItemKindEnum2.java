@@ -11,7 +11,8 @@ public enum PagItemKindEnum2 {
     tariff("tariff", "Tariff", "tariff"),
     meterGroup("meter_group", "Meter Group", "meterGroup"),
     finance("finance", "Finance", "finance"),
-    org("org", "Organization", "org"),;
+    org("org", "Organization", "org"),
+    acl("acl", "ACL", "acl"),;
 
     private final String value;
     private final String label;
