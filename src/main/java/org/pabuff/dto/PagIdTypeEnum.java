@@ -1,5 +1,8 @@
 package org.pabuff.dto;
 
+import lombok.Getter;
+
+@Getter
 public enum PagIdTypeEnum {
     indexType("id", "Index", "id"),
     nameType("name", "Name", "name"),
@@ -22,19 +25,6 @@ public enum PagIdTypeEnum {
         this.value = value;
         this.label = label;
         this.tag = tag;
-    }
-
-    // Getters
-    public String getValue() {
-        return value;
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
-    public String getTag() {
-        return tag;
     }
 
     // Reverse lookup by value
