@@ -3,9 +3,7 @@ import lombok.Getter;
 
 @Getter
 public enum PagAclEnum {
-    resourceType("res_type", "Resource Type", "res_type"),
     resource("res", "Resource", "res"),
-    operation("operation", "Operation", "op"),
     permission("perm", "Permission", "perm"),;
 
     // Getters
