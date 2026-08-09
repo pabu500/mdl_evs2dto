@@ -6,12 +6,13 @@ public enum PagItemKindEnum2 {
     user("user", "User", "user"),
     role("role", "Role", "role"),
     tenant("tenant", "Tenant", "tenant"),
-    jobType("job_type", "Job Type", "jobType"),
+    jobType("job_type", "Job Type", "jt"),
     bill("bill", "Bill", "bill"),
     tariff("tariff", "Tariff", "tariff"),
-    meterGroup("meter_group", "Meter Group", "meterGroup"),
+    meterGroup("meter_group", "Meter Group", "mg"),
     finance("finance", "Finance", "finance"),
     org("org", "Organization", "org"),
+    resourceType("resource_type", "Resource Type", "rt"),
     acl("acl", "ACL", "acl"),;
 
     private final String value;
