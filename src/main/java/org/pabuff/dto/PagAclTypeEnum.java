@@ -2,7 +2,7 @@ package org.pabuff.dto;
 import lombok.Getter;
 
 @Getter
-public enum PagAclEnum {
+public enum PagAclTypeEnum {
     resource("res", "Resource", "res"),
     permission("perm", "Permission", "perm"),;
 
@@ -11,15 +11,15 @@ public enum PagAclEnum {
     private final String label;
     private final String tag;
 
-    PagAclEnum(String value, String label, String tag) {
+    PagAclTypeEnum(String value, String label, String tag) {
         this.value = value;
         this.label = label;
         this.tag = tag;
     }
 
     // Reverse lookup by value
-    public static PagAclEnum fromValue(String value) {
-        for (PagAclEnum status : PagAclEnum.values()) {
+    public static PagAclTypeEnum fromValue(String value) {
+        for (PagAclTypeEnum status : PagAclTypeEnum.values()) {
             if (status.value.equalsIgnoreCase(value)) {
                 return status;
             }
@@ -27,8 +27,8 @@ public enum PagAclEnum {
         throw new IllegalArgumentException("Unknown value: " + value);
     }
 
-    public static PagAclEnum fromTag(String tag) {
-        for (PagAclEnum status : PagAclEnum.values()) {
+    public static PagAclTypeEnum fromTag(String tag) {
+        for (PagAclTypeEnum status : PagAclTypeEnum.values()) {
             if (status.tag.equalsIgnoreCase(tag)) {
                 return status;
             }
@@ -36,8 +36,8 @@ public enum PagAclEnum {
         throw new IllegalArgumentException("Unknown tag: " + tag);
     }
 
-    public static PagAclEnum fromLabel(String label) {
-        for (PagAclEnum status : PagAclEnum.values()) {
+    public static PagAclTypeEnum fromLabel(String label) {
+        for (PagAclTypeEnum status : PagAclTypeEnum.values()) {
             if (status.label.equalsIgnoreCase(label)) {
                 return status;
             }
