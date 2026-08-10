@@ -1,5 +1,8 @@
 package org.pabuff.dto;
 
+import lombok.Getter;
+
+@Getter
 public enum PagItemKindEnum2 {
     device("device", "Device", "device"),
     scope("scope", "Scope", "scope"),
@@ -12,7 +15,7 @@ public enum PagItemKindEnum2 {
     meterGroup("meter_group", "Meter Group", "mg"),
     finance("finance", "Finance", "finance"),
     org("org", "Organization", "org"),
-    resourceType("resource_type", "Resource Type", "rt"),
+    resourceType("res_type", "Resource Type", "rt"),
     acl("acl", "ACL", "acl"),;
 
     private final String value;
