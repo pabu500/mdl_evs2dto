@@ -4,7 +4,8 @@ import lombok.Getter;
 @Getter
 public enum PagAclTypeEnum {
     resource("res", "Resource", "res"),
-    permission("perm", "Permission", "perm"),;
+    permission("perm", "Permission", "perm"),
+    policy("policy", "Policy", "policy"),;
 
     // Getters
     private final String value;
