@@ -7,6 +7,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Map;
+
 @Builder
 @Getter@Setter
 @AllArgsConstructor
@@ -32,12 +34,18 @@ public class PagSvcClaimDto {
     @JsonProperty("endpoint")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final String endpoint;
-    @JsonProperty("scope")
+    @JsonProperty("user_scope")
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private final String scope;
-    @JsonProperty("res")
+    private final Map<String, Object> userScope;
+    @JsonProperty("res_id")
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private final String res;
+    private final long resId;
+    @JsonProperty("res_name")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private final String resName;
+    @JsonProperty("res_label")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private final String resLabel;
     @JsonProperty("operation")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final String operation;
@@ -47,8 +55,8 @@ public class PagSvcClaimDto {
     @JsonProperty("expire_in_minutes")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final Integer expireInMinutes;
-    @JsonProperty("selected_role_id")
-    @JsonInclude(JsonInclude.Include.NON_NULL)
-    private final Long selectedRoleId;
+//    @JsonProperty("selected_role_id")
+//    @JsonInclude(JsonInclude.Include.NON_NULL)
+//    private final Long selectedRoleId;
 
 }
