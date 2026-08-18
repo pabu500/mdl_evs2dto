@@ -35,9 +35,9 @@ public class PagSvcClaimDto {
     @JsonProperty("scope")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final String scope;
-    @JsonProperty("target")
+    @JsonProperty("res")
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private final String target;
+    private final String res;
     @JsonProperty("operation")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final String operation;
