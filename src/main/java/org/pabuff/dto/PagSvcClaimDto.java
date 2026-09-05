@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
 import java.util.Map;
 
 @Builder
@@ -49,6 +50,10 @@ public class PagSvcClaimDto {
     @JsonProperty("operation")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final String operation;
+    @JsonProperty("perm_request_list")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private final List<Map<String, Object>> permRequestList;
+
     @JsonProperty("api_key")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final String apiKey;
