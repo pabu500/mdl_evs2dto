@@ -6,7 +6,9 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum PagRoleTypeEnum {
-    admin("admin", "Admin Role", "admin"),
+    superAdmin("super_admin", "Super Admin Role", "super-admin"),
+    sysAdmin("sys_admin", "System Admin Role", "sys-admin"),
+    projectAdmin("project_admin", "Project Admin Role", "project-admin"),
     subAdmin("sub_admin", "Sub-Admin Role", "sub-admin"),
     ops("ops", "Operations Role", "ops"),
     siteOps("site_ops", "Site Operations Role", "site-ops"),
