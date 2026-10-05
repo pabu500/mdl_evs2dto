@@ -165,23 +165,18 @@ public class MeterInfoDto {
 //        return this;
 //    }
 
-    //if field have LocalDateTime, will require Jackson dependency
-    static ObjectMapper mapper = new ObjectMapper();
-    public static MeterInfoDto fromFieldMap(Map<String, Object> fieldMap) {
-        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        //add LocalDateTime module
-//        JavaTimeModule javaTimeModule=new JavaTimeModule();
-        // Hack time module to allow 'Z' at the end of string (i.e. javascript json's)
-//        javaTimeModule.addDeserializer(LocalDateTime.class, new LocalDateTimeDeserializer(DateTimeFormatter.ISO_DATE_TIME));
-        //add format for "yyyy-MM-dd HH:mm:ss"
-//        javaTimeModule.addDeserializer(LocalDateTime.class, new LocalDateTimeDeserializer(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
-        //add format for "yyyy-MM-dd HH:mm:ss.SSS"
-//        javaTimeModule.addDeserializer(LocalDateTime.class, new LocalDateTimeDeserializer(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS")));
-//        mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
-//        mapper.registerModule(javaTimeModule);
+    // Configure once before conversion; repeated module registration grows mapper state.
+    private static final ObjectMapper mapper = createMapper();
+
+    private static ObjectMapper createMapper() {
         SimpleModule module = new SimpleModule();
         module.addDeserializer(LocalDateTime.class, new LocalDateTimeMultiDeserializer());
-        mapper.registerModule(module);
+        return new ObjectMapper()
+                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+                .registerModule(module);
+    }
+
+    public static MeterInfoDto fromFieldMap(Map<String, Object> fieldMap) {
         try {
             MeterInfoDto meterInfoDto = mapper.convertValue(fieldMap, MeterInfoDto.class);
             PremiseDto premiseDto = PremiseDto.builder()
