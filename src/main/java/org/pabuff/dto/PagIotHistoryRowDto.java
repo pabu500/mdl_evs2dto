@@ -34,11 +34,6 @@ public class PagIotHistoryRowDto {
     @JsonProperty("readings")
     Map<String, Map<String, Object>> readings;
 
-    // Observed level at this timestamp; independent of normalized readings.
-    @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty("battery_percentage")
-    Double batteryPercentage;
-
     //data saver with short names
     @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonProperty("dt")
