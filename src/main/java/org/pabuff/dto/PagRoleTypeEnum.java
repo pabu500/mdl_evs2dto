@@ -13,6 +13,7 @@ public enum PagRoleTypeEnum {
     ops("ops", "Operations Role", "ops"),
     siteOps("site_ops", "Site Operations Role", "site-ops"),
     billingOps("billing_ops", "Billing Operations Role", "billing-ops"),
+    billingManager("billing_manager", "Billing Manager Role", "billing-manager"),
     consumer("consumer", "Consumer Role", "consumer"),
     tenant("tenant", "Tenant Role", "tenant");
 
